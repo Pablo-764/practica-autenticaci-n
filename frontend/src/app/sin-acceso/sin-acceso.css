@@ -1,0 +1,4 @@
+.contenedor { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #fdecec; font-family: Arial, sans-serif; }
+.tarjeta { background: #fff; padding: 32px; width: 380px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+h1 { color: #b00020; font-size: 24px; margin-top: 0; }
+button { padding: 10px 16px; background: #b00020; color: #fff; border: none; border-radius: 4px; cursor: pointer; }

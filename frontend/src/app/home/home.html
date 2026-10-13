@@ -1,0 +1,11 @@
+<div class="contenedor">
+  <div class="tarjeta">
+    <h1>{{ mensaje }}</h1>
+    <p>Bienvenido al sistema. Estos son tus datos registrados:</p>
+    <ul>
+      <li><b>Nombre:</b> {{ nombre }}</li>
+      <li><b>Rol:</b> {{ rol }}</li>
+    </ul>
+    <button (click)="cerrarSesion()">Cerrar sesión</button>
+  </div>
+</div>

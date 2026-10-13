@@ -1,0 +1,18 @@
+<div class="contenedor">
+  <form class="tarjeta" (ngSubmit)="iniciarSesion()">
+    <h1>Cafetería ERP</h1>
+    <p class="sub">Inicia sesión para continuar</p>
+
+    <label for="correo">Correo</label>
+    <input id="correo" name="correo" type="email" [(ngModel)]="correo" placeholder="correo@ejemplo.com" required />
+
+    <label for="contrasena">Contraseña</label>
+    <input id="contrasena" name="contrasena" type="password" [(ngModel)]="contrasena" placeholder="••••••••" required />
+
+    @if (mensajeError) {
+      <p class="error">{{ mensajeError }}</p>
+    }
+
+    <button type="submit">Entrar</button>
+  </form>
+</div>
